@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise de HTML</title>
+    <link rel="stylesheet" href="CSS ex.css">
+</head>
+<body bgcolor="#00ffff">
+    <h1 align="center">Corrige des excercise de html</h1>
+    <hr width="80%" size="2"></hr>
+    <h2>exercise 2</h2>
+        <h4 align="center">
+            <table border="1" width="80%">
+                <tr>
+                <td colspan="3" height="100%" <center>cette cellule occupe tout la largeur du tableau</td>
+                </tr>
+                <tr>
+                    <td width="33%" height="100%" align="left">allignement a gauche</td>
+                    <td width="33%" height="100%"></td>
+                    <td width="33%" height="100%">allignementa droit</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" height="100%">cette cellule occupedeux lignes</td>
+                    <td width="33%" height="100%"><font color="red">ecris en rouge</font></td>
+                    <td width="33%" height="100%"></td>
+                     
+                </tr>
+                <tr>
+                     
+                    <td width="33%" height="100%">je ne definis que</td>
+                    <td width="33%" height="100%">deux cellule sur cette ligne</td>
+                </tr>
+                <tr>
+                    <td colspan="2" height="100%">fusion de deux cellule</td>
+                    <td width="33%" height="100%" bgcolor="yellow"></td>
+                </tr>
+                </table>
+                <h4 aligne="left"></h4>
+                    <ul>
+                        <li>&bull;Titre 1</li>
+                        <li>&bull;Titre 2
+                        <ul>
+                        <li>&oacute;Section 1</li>
+                        <li>&oacute;Section 2
+                        <ul>
+                        <li>&#9632;Sous-section 1</li>
+                        <li>&#9632;Sous-section 2
+                        </ul>
+                        </li>
+                        </ul>
+                        </li>
+                        <li>&bull;Titre 3
+                        <ul>
+                        <li>&oacute;Section 1</li>
+                        <li>&oacute;Section 2</li>
+                        </ul>
+                        </li>
+                        </ul>
+                        <ol>
+                        <li><font face="Comic San MS.">jutilise la police Comic San MS. Puis un retour a la ligne</font></li>
+                        <li><font face="arial">jutilise la police arial</font></li>
+                        <li><font face="Verdana">jutilise la police Verdana</font></li>
+                        </ol>
+                        <form><h2>Vos coordonees</h2>
+                        <label for="name">nom : </label>
+                        <input type="name" id="name" placeholder="votre nom"><br><br>
+                        <label for="name">prenom : </label>
+                        <input type="name" id="name" placeholder="votre prenom"><br><br>
+                        <label for="date">Date de naissance : </label>
+                        <input type="date" id="Date"><br><br>
+                        <label for="email">Mail : </label>
+                        <input type="email" id="email" placeholder="votre adresse Mail"><br><br>
+                        <label for="url">Votre site : </label>
+                        <input type="url" id="url" placeholder="lien du site"><br><br>
+                        <label for="password"> Code : </label>
+                        <input type="password" id="code" placeholder="saisir le code"><br><br>
+                        <label for="genre"> Genre : </label>
+                        <ol>
+                        <input type="checkbox" id="genre">homme<br>
+                        <input type="checkbox" id="genre">Femme<br>
+                        </ol>
+                        <label for="pays"> pays : </label>
+                        <SElect id="pays">
+                        <OPTion value="CAMEROUN">CAMEROUN</OPTion>
+                        <OPTion value="BENIN">BENIN</OPTion>
+                        <OPTion value="CONGO">CONGO</OPTion>
+                        <SElect id="pays">
+                        <option value="CAMEROUN">+237</option>
+                        <option value="BENIN">+229</option>
+                        <option value="CONGO">+242</option>
+                        </SElect>
+                         <H2>Vos gouts</H2>
+                         <label for="gouts"></label>
+                         <input type="checkbox" id="gouts">Tarte<br>
+                         <input type="checkbox" id="gouts">Tarte<br>
+                         <input type="checkbox" id="gouts">Tarte<br>
+                         <textarea name="text" id="texte" rows="5" placeholder="Decrivez votre text ici"></textarea>
+                         <h2>Envoyer nous votre photo</h2>
+                         <input type="file" id="file"><br><br>
+                         <input type="reset" id="reset">.<input type="submit">
+                         <h2>Coordonnees</h2>
+                         <label for="civilite">civilite</label>
+                         <input type="checkbox">Mademoiselle
+                         <input type="checkbox">Madame
+                         <input type="checkbox">Monsieur<br><br>
+                         <h4>
+                         <label for="name">Nom/Prenom</label>
+                         <input type="text" id="text" widht="30%"><br><br>
+                         <label for="adresse">Addresse</label>
+                         <textarea name="adresse" id="adresse">Rue N0 Boite Postale</textarea><br><br>
+                        <label for="code Postale">Code Postal/localite/Gouvernorat</label>
+                        <input type="text" id="text" size="1">.<input type="text" id="text" placeholder="jendouba">.<select id="jendouba"><option value="jendouba">jendouba</option></select><br><br>
+                        <label for="pays">pays</label>
+                        <select id="pays">
+                        <option value="Tunisie">Tunisie</option>
+                        <option value="BENIN">BENIN</option>
+                        <option value="CONGO">CONGO</option>
+                        </select><br><br>
+                        <label for="platform">platform(s)</label>
+                        <input type="checkbox">Window
+                        <input type="checkbox">Macintosh
+                        <input type="checkbox">Unix<br><br>
+                        <label for="Application">Application</label>
+                        <select id="Application" size="4">
+                        <option value="Bureautique">Bureautique</option>
+                        <option value="DOA">DOA</option>
+                        <option value="Statistique">Statistique</option>
+                        <option value="SGBD">SGBD</option>
+                        <option value="Internet">Internet</option>
+                        </select>
+                    </h4>
+                </form>
+            </h4>
+    </body>
+    </html>
