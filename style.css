@@ -1,0 +1,102 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    }
+    
+    h1 {
+    text-align: center;
+    color: red;
+    }
+    
+    h2 {
+    text-decoration: underline;
+    }
+    
+    section h2 {
+    color: green;
+    }
+    
+    article h2 {
+    color: blue;
+    }
+    
+    h2 + p {
+    color: red;
+    font-style: italic;
+    }
+    
+    h1 + p {
+    color: purple;
+    }
+form {
+    font-family: Helvetica;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 200px;
+    height: 25px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border: 2px solid #0000FF;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    legend {
+        font-weight: bold;
+    }
+}
+
+input[type="submit"] {
+    width: 400px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000; /* Bordure */
+    padding: 10px; /* Marge interne */
+}
+
+tr:nth-child(odd) {
+    background-color: #f0f0f0; /* Fond lignes impaires */
+}
+
+tr:last-child td {
+    color: #ff0000; /* Texte dernière ligne */
+}
+
