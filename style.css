@@ -1,4 +1,4 @@
-
+/* le corp du document doit etre en helvetica*/
 body {
     font-family: Helvetica, sans-serif;
     }
@@ -12,11 +12,11 @@ body {
     text-decoration: underline;
     }
     
-    section h2 {
+    section>h2 {
     color: green;
     }
     
-    article h2 {
+    article>h2 {
     color: blue;
     }
     
@@ -93,7 +93,7 @@ td {
 }
 
 tr:nth-child(odd) {
-    background-color: #f0f0f0; /* Fond lignes impaires */
+    background-color: blue; /* Fond lignes impaires */
 }
 
 tr:last-child td {
